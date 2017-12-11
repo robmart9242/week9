@@ -1,21 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  
-<head>
-  <meta charset="UTF-8"/>
-  <title>Portfolio - About Me</title>
-  <!--    https://fonts.google.com/-->
-  <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
-  
-  <!--    http://fontawesome.io/-->
-  <script src="https://use.fontawesome.com/c94ce5a678.js"></script>
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  
-  <!--    My first stylesheet -->
-  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-</head>
+<!--Robert Martinez 12/10/17-->
+<html lang="en">
+  <head>
+<!--    bootstrap code begin -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>Portfolio - Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--    <script src="js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
 <body>
 
@@ -23,13 +39,14 @@
   <header>
     <h1>Portfolio - About Me</h1>
   </header>
-  <nav>
-    <div class="list-group">
-      <a class="list-group-item" href="index.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
-      <a class="list-group-item" href="about-me.html"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; About Me</a>
-    </div>
-  </nav>
+   <nav class="nav nav-pills">
+      <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link active" href="about-me.html">About Me</a>
+    </nav>
   <article>
+    <br>
+      <br>
+      <br>
     <h2>About: Robert Martinez <i class="fa fa-magic" style="font-size:.5em;" aria-hidden="true"></i></h2>
     <p>Robert Martinez is a Information Systems Developer for a local company in Washington State.  He has a BS in CS from UAH.  He enjoys the outdoors and learning about Volcanoes.</p>
   </article>
@@ -38,7 +55,14 @@
   <footer>
     <p>Author: Robert Martinez</p>
   </footer>
-
-  </body>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--    <script src="js/ie10-viewport-bug-workaround.js"></script>-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 
 </html>
